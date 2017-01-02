@@ -1,0 +1,4 @@
+{
+  "staticFileGlobs": [ "build/**/*.*" ],
+  "stripPrefix": "build/"
+}
