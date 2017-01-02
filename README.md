@@ -21,7 +21,7 @@ My (incorrect) understanding
 yarn
 yarn build
 yarn sw-precache
-http-server build
+yarn server
 ```
 
 - Browse to http://localhost:8080
@@ -41,10 +41,10 @@ http-server build
 ```
 yarn build
 yarn sw-precache
-http-server build
+yarn server
 ```
 
-- Reload the page (This is where things go wrong)
+- Reload the page - **This is where things go wrong**
   - The service worker should update the cache in the background
   - When its done, you should see `New or updated content is available.` in the console
   - The changes you made should not be visible until you reload
